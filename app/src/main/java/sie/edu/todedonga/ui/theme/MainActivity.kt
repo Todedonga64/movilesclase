@@ -13,6 +13,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import sie.edu.todedonga.actividad5.Navegacion5View
+import sie.edu.todedonga.actividad6.navigation.Navegacion6View
+import sie.edu.todedonga.lazylist.viewmodels.StudentViewModel
 import sie.edu.todedonga.navigation.NavigationManager
 import sie.edu.todedonga.tarea3.NavegacionLaboView
 
@@ -24,7 +26,8 @@ class MainActivity : ComponentActivity() {
             TodedongaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Column(modifier = Modifier.padding(innerPadding)) {
-                        Navegacion5View()
+                        val studentViewModel = StudentViewModel()
+                        Navegacion6View()
                     }
                 }
             }

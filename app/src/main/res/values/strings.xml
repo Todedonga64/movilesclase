@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Todedonga</string>
+    <string name="app_name" translatable="false">Todedonga</string>
+    <string name="start_message">Comenzar</string>
+    <string name="welcome">Bienvenido, ¿tendre suerte?</string>
 </resources>
