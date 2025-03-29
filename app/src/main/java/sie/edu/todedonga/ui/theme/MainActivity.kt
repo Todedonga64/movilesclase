@@ -16,7 +16,9 @@ import sie.edu.todedonga.actividad5.Navegacion5View
 import sie.edu.todedonga.actividad6.navigation.Navegacion6View
 import sie.edu.todedonga.lazylist.viewmodels.StudentViewModel
 import sie.edu.todedonga.navigation.NavigationManager
+import sie.edu.todedonga.preferencias.InfoView
 import sie.edu.todedonga.tarea3.NavegacionLaboView
+import sie.edu.todedonga.tarea4.NavigationManagerView4
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,7 +29,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Column(modifier = Modifier.padding(innerPadding)) {
                         val studentViewModel = StudentViewModel()
-                        Navegacion6View()
+                        NavigationManagerView4()
                     }
                 }
             }

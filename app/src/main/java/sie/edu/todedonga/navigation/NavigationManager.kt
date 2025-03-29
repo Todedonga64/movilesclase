@@ -14,8 +14,6 @@ import sie.edu.todedonga.componentes.BotonesView
 @Composable
 fun NavigationManager() {
 
-    val home = "home"
-
     val navController: NavHostController = rememberNavController()
 
     NavHost(
